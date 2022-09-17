@@ -17,7 +17,8 @@
 
 img {
   border-radius: 10px;
-  width: 100%;
+  width: 550px;
+  height: 350px;
 }
 
 .card-details {
@@ -45,4 +46,24 @@ img {
   text-align: justify;
   font-size: 2rem;
   margin: 10px 0;
+}
+
+@media screen and (max-width:760px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  img {
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+  }
+
+  .card-details {
+    margin: 10px 20px;
+    width: 350px;
+    flex-wrap: wrap;
+  }
 }
