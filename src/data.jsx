@@ -1,3 +1,10 @@
+import imgTarkwa from './images/tarkwa-bay.jpeg'
+import imgAgodi from './images/agodi-gardens.jpg'
+import imgLcc from './images/lcc.jpg'
+import imgOmu from './images/omu-resort.jpg'
+import imgOopl from './images/oopl.jpeg'
+import imgRufus from './images/rufus-and-bee.jpg'
+
 export default [
     {
         id: 1,
@@ -6,8 +13,8 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/RJAGPdeZDELuUok39",
         openingHours: "8am",
         closingHours: "5pm",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "tarkwa-bay.jpeg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni explicabo in obcaecati totam expedita molestias molestiae fugiat modi fuga.",
+        imageUrl: imgTarkwa
     },
     {
         id: 2,
@@ -17,7 +24,7 @@ export default [
         openingHours: "8am",
         closingHours: "5am",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "rufus-and-bee.jpg"
+        imageUrl: imgRufus
     },
     {
         id: 3,
@@ -27,7 +34,7 @@ export default [
         openingHours: "8am",
         closingHours: "5pm",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "agodi-gardens.jpg"
+        imageUrl: imgAgodi
     },
     {
         id: 4,
@@ -37,7 +44,7 @@ export default [
         openingHours: "8am",
         closingHours: "5pm",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "omu-resort.jpg"
+        imageUrl: imgOmu
     },
     {
         id: 5,
@@ -47,7 +54,7 @@ export default [
         openingHours: "8am",
         closingHours: "5pm",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "oopl.jpeg"
+        imageUrl: imgOopl
     },
     {
         id: 6,
@@ -57,6 +64,6 @@ export default [
         openingHours: "8am",
         closingHours: "5pm",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "lcc.jpg"
+        imageUrl: imgLcc
     }
 ]
