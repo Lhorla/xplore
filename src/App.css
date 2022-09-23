@@ -73,6 +73,7 @@ img {
   .nav {
     width: 100%;
     font-size: 2rem;
+    padding: 5px 0;
   }
 
   img {
