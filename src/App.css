@@ -8,9 +8,16 @@
   text-align: center;
   background-color: blue;
   color: #fff;
-  padding: 10px 0;
+  padding: 5px 0;
   font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+
+.nav-icon {
   font-size: 3rem;
+  color: #DCDCDC;
+  text-align: center;
+  margin: 0 10px;
 }
 
 .card-container {
@@ -21,7 +28,7 @@
 img {
   border-radius: 10px;
   width: 550px;
-  height: 350px;
+  height: 400px;
 }
 
 .card-details {
@@ -62,7 +69,26 @@ img {
   font-weight: 400;
 }
 
+.footer {
+  text-align: center;
+  background-color: blue;
+  color: #fff;
+  padding: 3px 0;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 760px) {
+
   .card-container {
     display: flex;
     flex-direction: column;
@@ -74,6 +100,10 @@ img {
     width: 100%;
     font-size: 2rem;
     padding: 5px 0;
+  }
+
+  .nav-icon {
+    font-size: 1.5rem;
   }
 
   img {
@@ -99,5 +129,11 @@ img {
 
   .card-details h1 {
     font-size: 1.5rem;
+  }
+
+  .footer {
+    width: 100%;
+    font-size: 2rem;
+    padding: 3px 0;
   }
 }
